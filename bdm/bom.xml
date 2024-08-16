@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.HabilitarAutorizacion">
+            <fields>
+                <field type="LONG" length="255" name="solicitudAutorizacionId" nullable="false" collection="false"/>
+                <field type="LONG" length="255" name="dniSolicitante" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="nombresSoliAutorizacion" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="apellidosSoliAutorizacion" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaSolicitud" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="categoriaAutorizacion" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="foto" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="sancionAutorizacion" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="antecedentesPenales" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="antecedentesPoliciales" nullable="false" collection="false"/>
+                <field type="BOOLEAN" length="255" name="multas" nullable="false" collection="false"/>
+                <field type="STRING" length="255" name="estadoSolicitud" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

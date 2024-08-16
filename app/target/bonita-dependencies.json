@@ -1,0 +1,73 @@
+{
+  "connectorImplementations" : [ ],
+  "filterImplementations" : [ {
+    "type" : "ACTOR_FILTER",
+    "className" : "org.bonitasoft.actorfilter.initiator.ProcessInitiatorUserFilter",
+    "implementationId" : "bonita-actorfilter-initiator-impl",
+    "implementationVersion" : "1.0.0",
+    "definitionId" : "bonita-actorfilter-initiator",
+    "definitionVersion" : "1.0",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.actorfilter",
+      "artifactId" : "bonita-actorfilter-initiator",
+      "version" : "1.0.0",
+      "file" : "C:\\Users\\Pelusita\\.m2\\repository\\org\\bonitasoft\\actorfilter\\bonita-actorfilter-initiator\\1.0.0\\bonita-actorfilter-initiator-1.0.0.jar"
+    },
+    "jarEntry" : "bonita-actorfilter-initiator.impl"
+  }, {
+    "type" : "ACTOR_FILTER",
+    "className" : "org.bonitasoft.actorfilter.initiator.manager.ProcessInitiatorManagerUserFilter",
+    "implementationId" : "bonita-actorfilter-initiator-manager-impl",
+    "implementationVersion" : "1.0.0",
+    "definitionId" : "bonita-actorfilter-initiator-manager",
+    "definitionVersion" : "1.0",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.actorfilter",
+      "artifactId" : "bonita-actorfilter-initiator-manager",
+      "version" : "1.0.0",
+      "file" : "C:\\Users\\Pelusita\\.m2\\repository\\org\\bonitasoft\\actorfilter\\bonita-actorfilter-initiator-manager\\1.0.0\\bonita-actorfilter-initiator-manager-1.0.0.jar"
+    },
+    "jarEntry" : "bonita-actorfilter-initiator-manager.impl"
+  } ],
+  "connectorDefinitions" : [ ],
+  "filterDefinitions" : [ {
+    "definitionId" : "bonita-actorfilter-initiator",
+    "definitionVersion" : "1.0",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.actorfilter",
+      "artifactId" : "bonita-actorfilter-initiator",
+      "version" : "1.0.0",
+      "file" : "C:\\Users\\Pelusita\\.m2\\repository\\org\\bonitasoft\\actorfilter\\bonita-actorfilter-initiator\\1.0.0\\bonita-actorfilter-initiator-1.0.0.jar"
+    },
+    "jarEntry" : "bonita-actorfilter-initiator.def"
+  }, {
+    "definitionId" : "bonita-actorfilter-initiator-manager",
+    "definitionVersion" : "1.0",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.actorfilter",
+      "artifactId" : "bonita-actorfilter-initiator-manager",
+      "version" : "1.0.0",
+      "file" : "C:\\Users\\Pelusita\\.m2\\repository\\org\\bonitasoft\\actorfilter\\bonita-actorfilter-initiator-manager\\1.0.0\\bonita-actorfilter-initiator-manager-1.0.0.jar"
+    },
+    "jarEntry" : "bonita-actorfilter-initiator-manager.def"
+  } ],
+  "restApiExtensions" : [ ],
+  "pages" : [ ],
+  "forms" : [ ],
+  "themes" : [ ],
+  "applicationDescriptors" : [ {
+    "displayName" : "Bonita Administrator Application",
+    "version" : "6.0",
+    "description" : "This application allows to deploy and manage all the elements of Bonita projects.",
+    "profile" : "Administrator",
+    "appToken" : "adminAppBonita",
+    "artifact" : {
+      "groupId" : "org.bonitasoft.web.application",
+      "artifactId" : "bonita-admin-application",
+      "version" : "9.0.0",
+      "classifier" : "application",
+      "file" : "C:\\Users\\Pelusita\\.m2\\repository\\org\\bonitasoft\\web\\application\\bonita-admin-application\\9.0.0\\bonita-admin-application-9.0.0-application.zip"
+    }
+  } ],
+  "issues" : [ ]
+}
