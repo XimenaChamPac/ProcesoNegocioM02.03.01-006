@@ -580,6 +580,18 @@
     <role name="gerenciaMunicipal">
       <displayName>gerenciaMunicipal</displayName>
     </role>
+    <role name="usuario">
+      <displayName>usuario</displayName>
+    </role>
+    <role name="ingenieroDCivil">
+      <displayName>ingenieroDCivil</displayName>
+    </role>
+    <role name="usuarioSolicitante">
+      <displayName>usuarioSolicitante</displayName>
+    </role>
+    <role name="concesionario">
+      <displayName>concesionario</displayName>
+    </role>
   </roles>
   <groups>
     <group name="acme">
